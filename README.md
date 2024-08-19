@@ -1,0 +1,4 @@
+There are many algprithms that can be used in the core RFE as long as they provide some indication of variable importance, Most decision tree algorithms are likely to report the same general trends in feature importance
+but this is not guaranteed, It might be helpful to explore the use of diffrent algorithms wrapped by RFE and the next step we use A box whisker plot is created for the distribution of accuracy scores for each configured
+wrapped algorithm,We can see the general trend of good performance with logistic regression CART and perhaps GBM. This highlights that even thought the actual model used to fit the chosen features is the same in each
+case, the model used within RFE can make an important diffrence to which features are selected and in turn the performance on the prediction problem.
